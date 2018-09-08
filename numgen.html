@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Generation of Numbers</title>
+</head>
+<style>
+th{
+background-color: coral;
+}
+tbody{
+background-color:beige;
+}
+table {
+text-align: center;
+}
+tr:hover {
+background-color:orange;
+}
+tr:nth-child(odd) {
+background-color:pink;
+}
+
+</style>
+<body>
+<h1 style=" color: orange"><center>Generation of Numbers<center></h1>
+<script>
+
+document.write("<center><table><tr><th>Number</th><th>Square</th><th>Cube</th>")
+for(var i=0;i<=10;i++) {
+document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td>"+i*i*i+"</td>")
+}
+document.write("</center></table>")
+</script>
+</body>
+</html>
