@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Grrowing</title>
+<script>
+var font=0,loading;
+function start() 
+{
+loading=window.setInterval("incr()",100);
+}
+function incr()
+{
+font=font+1;
+display.innerHTML="Text-Growing:"+font+"pt";
+display.style.fontSize=font+"pt";
+if(font>50) {
+window.clearTimeout(loading);
+loading=window.setInterval("decr()",100);
+}
+display.style.color="red";
+}
+
+function decr() {
+font=font-1;
+display.innerHTML="Text-Shrinking:"+font+"pt";
+display.style.fontSize=font+"pt";
+if(font==5) {
+window.clearTimeout(loading);
+loading=window.setInterval("incr()",100);
+}
+display.style.color="deeppink";
+}
+</script>
+
+</head>
+<body onload="start()">
+
+<center>
+<p id="display" style="margin-top:250px">
+</p>
+<center>
+</body>
+</html>
