@@ -1,0 +1,32 @@
+
+
+<?xml-stylesheet type="text/css" href="pro5.css"  ?>
+<vtu>
+  <student1>
+		<usn>Usn:4vv15cs121</usn>
+		<name>Name:vaishnavi</name>
+		<branch>Branch:CSE</branch>
+		<college>College:VVCE</college>
+		<year>Year:2015</year>
+		<email>Email:vaishnavi2018@gmail.com</email>
+	</student1>
+	
+	<student2>
+		<usn>Usn:4vv16cs121</usn>
+		<name>Name:Xyz</name>
+		<branch>Branch:ISE</branch>
+		<college>College:VVCE</college>
+		<year>Year:2016</year>
+		<email>Email:xyz2018@gmail.com</email>
+	</student2>
+	
+	
+	<student3>
+		<usn>Usn:4vv15cs116</usn>
+		<name>Name:vrushali</name>
+		<branch>Branch:ECE</branch>
+		<college>College:VVCE</college>
+		<year>Year:2015</year>
+		<email>Email:vrushali@gmail.com</email>
+	</student3>
+	</vtu>

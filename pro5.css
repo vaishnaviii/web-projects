@@ -1,0 +1,44 @@
+vtu {
+	background-color:pink;
+	display:block;
+}
+
+student1,student2,student3 {
+	display: block;
+    margin: auto;
+	padding:15px;
+    width: 100px;
+
+}
+
+usn {
+	color:deeppink;
+	font-size: 20px;
+	
+}
+
+name {
+	color:aqua;
+
+}
+branch {
+	color:green;
+
+}
+
+college {
+	color:red;
+	
+}
+year {
+	color:orange;
+
+}
+email {
+	color:blue;
+
+}
+
+name,branch,college,year,email {
+	margin:20px;
+}
